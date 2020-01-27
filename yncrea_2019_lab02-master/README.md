@@ -16,15 +16,15 @@ If you clone this repo, you will get:
 
 ## Let's build the core...
 * create a new Maven module called `lab02-core`. This should create a new folder in your project, with a `pom.xml` file and a `src` folder inside.
-* in this brand new Maven module, create an interface `yncrea.lab02.core.dao.QuoteProvider`
+* in this brand new Maven module, create an interface `yncrea.lab02.QuoteProvider`
   * it has 2 methods:
     * `getOneQuote` which has an integer parameter and returns a String
     * `getNumberOfQuotes` which returns an integer
   * this is what we call `Inversion of Control` because this interface indicates which contract to implement if you want  to provide quotes to the application.
-* create an interface called `yncrea.lab02.core.service.QuoteService`
+* create an interface called `yncrea.lab02.QuoteService`
   * it has a single method called `getRandomQuote` which returns a String.
   * this interface is the only "entrypoint" that the future applications will "consume".
-* create an implementation for this interface : `yncrea.lab02.core.service.impl.QuoteServiceImpl`
+* create an implementation for this interface : `yncrea.lab02.QuoteServiceImpl`
   * find a smart way to "inject" a `QuoteProvider` object in this implementation
   * implement the method, `java.security.SecureRandom` will clearly help you ;)
   

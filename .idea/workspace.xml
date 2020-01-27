@@ -20,7 +20,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yncrea_2019_lab02-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579516622380</updated>
-      <workItem from="1579516638684" duration="1031000" />
+      <workItem from="1579516638684" duration="1124000" />
     </task>
     <servers />
   </component>
@@ -58,6 +58,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="696" y="275" key="FileChooserDialogImpl" timestamp="1579527041723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="696" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579527041723" />
     <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579516655786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

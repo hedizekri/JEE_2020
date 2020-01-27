@@ -1,5 +1,5 @@
-package core.service.impl;
-import core.service.QuoteService;
+package yncreea.lab02.core.service.impl;
+import yncreea.lab02.core.service.QuoteService;
 import yncrea.security.SecureRandom;
 
 public class QuoteServiceImpl implements QuoteService {
